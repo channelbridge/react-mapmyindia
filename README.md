@@ -28,8 +28,6 @@ class MyMap extends React.Component {
 }
 ```
 
-Open your browser at localhost:3000
-
 
 #### Knows issues
 
