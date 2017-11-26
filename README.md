@@ -27,7 +27,8 @@ class MyMap extends React.Component {
 	 }
 }
 ```
-
+#### Build from source
+run `npm install && npm build` 
 
 #### Knows issues
 
