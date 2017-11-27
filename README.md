@@ -30,6 +30,22 @@ class MyMap extends React.Component {
 #### Build from source
 run `npm install && npm build` 
 
+#### MapmyIndia prop configuration
+```javascript
+	<MapmyIndia center={[12.33434,55.45454]} 
+		    zoomControl={PropTypes.bool} //false by default
+		    hybrid={PropTypes.bool}     // false by default
+		    location={PropTypes.bool}  //  false by default
+		    zoom={PropTypes.number}   
+		    height={'500px'}          //accepts strings, dimensions can be specified in any unit
+		    width={'500px'}
+		    
+	>
+		{/*Children*/}
+	</MapmyIndia>
+```
+
+
 #### Knows issues
 
 - Zoom does not work sometimes
